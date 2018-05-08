@@ -1,0 +1,15 @@
+{
+  "name": "awesome-sauce",
+  "description": "Makes things awesome",
+  "version": "1.0.0",
+  "main": "awesome-sauce.js",
+  "flat": true,
+  "dependencies": {
+    "@polymer/polymer": "next",
+    "@webcomponents/webcomponentsjs": "next"
+  },
+  "devDependencies": {
+    "@polymer/iron-component-page": "next",
+    "@polymer/iron-demo-helpers": "next"
+  }
+}
