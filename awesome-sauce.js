@@ -30,8 +30,8 @@ class AwesomeSauce extends PolymerElement {
        * Whether this element is currently awesome. 
        * 
        * Denote your property documentation with a JavaScript comment 
-       * preceding the property declaration. The simplest property 
-       * documentation can be a single line.
+       * preceding the property declaration.
+       * 
       */
       isAwesome: Boolean,
 
@@ -39,7 +39,7 @@ class AwesomeSauce extends PolymerElement {
        * Metadata describing what has been made awesome on the page.
        * 
        * If the property doesn't specify a type, or that type is not 
-       * primitive, be sure to annotate the type properly. For example:
+       * primitive, be sure to annotate the type properly.
        * 
        * @type {{elements: Array<HTMLElement>, level: number}}
        */
@@ -59,9 +59,7 @@ class AwesomeSauce extends PolymerElement {
        *
        * Event properties are documented with the @param tag, just like
        * method parameters.
-       * 
-       * For example:
-       *  
+       *   
        * @event awesome-change
        * @param {number} newAwesome New level of awesomeness.
        */
@@ -73,9 +71,7 @@ class AwesomeSauce extends PolymerElement {
    * 
    * To document functions, follow the property guidelines. Additionally,
    * make sure the types for all params and return values are documented.
-   * 
-   * For example:
-   * 
+   *    
    * @param {HTMLElement} element The element to be made awesome.
    * @param {number} level The numeric level of awesomeness. A value
    *     between `1` and `11`.
@@ -85,6 +81,8 @@ class AwesomeSauce extends PolymerElement {
    */
   makeAwesome(element, level, refs) {
     console.log('Awesome implementation of makeAwesome');
+    var cumulativeAwesome=11;
+    return cumulativeAwesome;
   }
 }
 
