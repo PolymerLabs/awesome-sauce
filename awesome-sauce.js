@@ -1,4 +1,4 @@
-import {PolymerElement} from '@polymer/polymer/polymer-element.js';
+import {PolymerElement, html} from '@polymer/polymer/polymer-element.js';
 
 /**
  * # Awesome! An h1 heading
@@ -15,7 +15,7 @@ import {PolymerElement} from '@polymer/polymer/polymer-element.js';
  */
 class AwesomeSauce extends PolymerElement {
   static get template() {
-    return `
+    return html`
       <style>
         :host {
           display: block;

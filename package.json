@@ -11,5 +11,8 @@
   "devDependencies": {
     "@polymer/iron-component-page": "next",
     "@polymer/iron-demo-helpers": "next"
+  },
+  "resolutions": {
+    "@polymer/polymer": "3.0.2"
   }
 }
