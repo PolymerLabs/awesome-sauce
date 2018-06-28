@@ -2,7 +2,7 @@
 
 A demo of an element with a documentation page.
 
-See the [Document your elements](https://polymer-project.org/3.0/docs/tools/documentation)
+See [Document your elements](https://www.polymer-project.org/3.0/docs/tools/documentation).
 
 **Must be installed with yarn, not npm**
 
